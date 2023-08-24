@@ -19,13 +19,14 @@ img{
 }
 .gridbox{
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     /* grid-gap: 1%;
     padding: 1%; */
 }
 .gridbox>div{
     border: 1px solid grey;
     padding: 5%;
+    
 }
 .gridbox>div:hover{
 box-shadow: 1px 1px 5px grey;
